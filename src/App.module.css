@@ -1,0 +1,30 @@
+/* src/App.module.css */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.app {
+  padding: 20px;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: #333;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  transform: scale(1);
+  transition: transform 0.3s;
+}
+
+.title:hover {
+  transform: scale(1.1);
+}
